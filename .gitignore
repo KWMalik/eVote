@@ -1,2 +1,6 @@
 config/
-mysql.yml
+cabal-dev
+dist
+.static-cache
+src/static/tmp
+tmp

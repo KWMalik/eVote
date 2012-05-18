@@ -2,15 +2,15 @@ name:              eVote
 version:           0.0.1
 license:           BSD3
 license-file:      LICENSE
-author:            Computer Science House
-maintainer:        Will Dignazio, Ethan House
-synopsis:          Electronic Voting System
-description:       Web based voting system, capable of a variety of types of votes and elections. 
+author:            Will Dignazio 
+maintainer:        Computer Science House, Will Dignazio
+synopsis:          Electronic Voting Application
+description:       Web based voting system writtern in haskell.
 category:          Web
 stability:         Experimental
 cabal-version:     >= 1.8
 build-type:        Simple
-homepage:          csh.rit.edu
+homepage:          http://csh.rit.edu/
 
 Flag dev
     Description:   Turn on development settings, like auto-reload templates.
