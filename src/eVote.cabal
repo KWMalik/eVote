@@ -1,16 +1,16 @@
 name:              eVote
-version:           0.0.0
+version:           0.0.1
 license:           BSD3
 license-file:      LICENSE
-author:            Will Dignazio
-maintainer:        Will Dignazio
-synopsis:          The greatest Yesod web application ever.
-description:       I'm sure you can say something clever here if you try.
+author:            Computer Science House
+maintainer:        Will Dignazio, Ethan House
+synopsis:          Electronic Voting System
+description:       Web based voting system, capable of a variety of types of votes and elections. 
 category:          Web
 stability:         Experimental
 cabal-version:     >= 1.8
 build-type:        Simple
-homepage:          http://eVote.yesodweb.com/
+homepage:          csh.rit.edu
 
 Flag dev
     Description:   Turn on development settings, like auto-reload templates.

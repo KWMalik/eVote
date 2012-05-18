@@ -10,3 +10,5 @@ For obvious security purposes, the config/ folder for the project has been left
 out of the public github repo. <bold>To Install: </bold> 
 
 - A mysql server needs to be running with an eVote user and database.
+- Run 'cabal install' in the repo directory
+
