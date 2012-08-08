@@ -1,6 +1,4 @@
 config/
-cabal-dev
-dist
-.static-cache
-src/static/tmp
 tmp
+*~
+*.o
