@@ -1,2 +1,5 @@
 config/
-mysql.yml
+tmp
+*~
+*.o
+*.egg-info
