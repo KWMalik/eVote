@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 app.debug = True
 
-test = Vote("slackwill", True, "table")
+test = votemap('vote')
 
 @app.route('/')
 def hello_world(): 

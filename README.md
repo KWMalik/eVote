@@ -7,3 +7,4 @@ Required Packages
 -----------------
 - flask 
 - sqlalchemy
+- pymysql
