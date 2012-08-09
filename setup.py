@@ -6,6 +6,8 @@ version = '0.0.1'
 
 install_requires =[ 
 	"flask", 
+	"sqlalchemy", 
+	"pymysql"
 ]
 
 setup(name="eVote", 
@@ -13,7 +15,8 @@ setup(name="eVote",
 		description="CSH eVote", 
 		long_description="Cmoputer Science House Electronic Vote System", 
 		classifiers = [  
-			"Development Status :: 1 - Planning"], 
+			"Development Status :: 1 - Planning", 
+			"License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"], 
 		keywords="eVote CSH", 
 		author="Will Dignazio", 
 		url="http://github.com/WillDignazio/eVote", 

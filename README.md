@@ -3,6 +3,7 @@ eVote
 
 Computer Science Houses Electronic Vote System
 
-Install Instructions
---------------------
-
+Required Packages
+-----------------
+- flask 
+- sqlalchemy
