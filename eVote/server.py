@@ -5,6 +5,8 @@ from sqlalchemy.orm import sessionmaker
 import sqlalchemy
 import logging
 
+from vote import *
+
 logging.basicConfig()
 logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO); 
 
@@ -17,12 +19,18 @@ app = Flask(__name__)
 
 app.debug = True
 
+test = Vote("slackwill", True, "table")
+
 @app.route('/')
 def hello_world(): 
 	return "eVote!"
 
-@app.route('/polls', methods = ['POST'])
-def api_message(): 
+@app.route('/create', methods = ['POST'])
+def create_vote_table(): 
+	return ""
+
+@app.route('/polls', methods = ['GET'])
+def get_polls(): 
 	return ""
 
 if __name__ == "__main__": 
