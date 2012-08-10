@@ -19,7 +19,11 @@ app = Flask(__name__)
 
 app.debug = True
 
-test = votemap('vote')
+test = Vote('vote')
+test2 = Vote('vote2')
+
+print test.__repr__
+print test2.__repr__
 
 @app.route('/')
 def hello_world(): 
